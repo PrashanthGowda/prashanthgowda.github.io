@@ -3856,9 +3856,9 @@ body.is-ie #sidebar > .inner {
   font-size: 0.6em;
   font-weight: bold;
   letter-spacing: 0.25em;
-  line-height: 1.75;
+  line-height: 1.2;
   outline: 0;
-  padding: 1.35em 0;
+  padding: 1em 0;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
@@ -4011,4 +4011,10 @@ body.is-preload #sidebar nav ul li {
   #intro {
     background-attachment: scroll;
   }
+}
+
+.avatar {
+  width: 175px;
+  height: 175px;
+  border-radius: 80%;
 }
